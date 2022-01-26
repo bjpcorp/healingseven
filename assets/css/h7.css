@@ -1,0 +1,26 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #000;
+  background-color: #0dcaf0;
+}
+.nav-link {
+  color: #0dcaf0;
+  padding: 0.5rem 0.5rem;
+}
+
+.carousel-item {
+  height:32rem;
+  background:#777;
+  background-image: url(../img/ice.jpg);
+  background-size: cover;
+  color:white;
+  postion: relative;
+}
+.slidebox {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  padding:2rem;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    height: fit-content;
